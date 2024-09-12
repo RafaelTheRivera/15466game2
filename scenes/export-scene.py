@@ -179,7 +179,7 @@ def write_light(obj):
 		)
 	print("  Energy: " + str(f*obj.data.energy))
 	lamp_data += struct.pack('f', f*obj.data.energy)
-	lamp_data += struct.pack('f', obj.data.distance)
+	lamp_data += struct.pack('f', obj.data.cutoff_distance) # switched because distance wasn't found. not sure what it was supposed to be
 	if obj.data.type == 'SPOT':
 		fov = obj.data.spot_size/math.pi*180.0
 		print("  Spot size: " + str(fov) + " degrees.")

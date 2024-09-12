@@ -1,8 +1,8 @@
-# (TODO: your game's title)
+# Stretch Away
 
 Author: Rafael Rivera
 
-Design: (TODO: In two sentences or fewer, describe what is new and interesting about your game.)
+Design: Hole-in-the-wall style game, utilizing scaling rather than movement. Stretch and shrink yourself into the hole before it hits you!
 
 Screen Shot:
 
@@ -10,6 +10,6 @@ Screen Shot:
 
 How To Play:
 
-(TODO: describe the controls and (if needed) goals/strategy.)
+WASD or Arrow Keys to Grow/Shrink. W/up or S/down to grow/shrink vertically, A/left or D/right to grow/shrink horizontally, respectively.
 
 This game was built with [NEST](NEST.md).
